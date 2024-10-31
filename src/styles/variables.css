@@ -18,16 +18,26 @@
 		Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; /* Sans-serif font */
 	--font-family-mono: "Victor Mono Variable", "Courier New", Courier, monospace; /* Monospace font */
 	--font-size-base: 16px; /* Base font size */
-	--font-size-sm: 0.875rem; /* Small font size */
-	--font-size-lg: 1.25rem; /* Large font size */
+	--font-size-xs: 0.563rem; /* Extra small font size */
+	--font-size-sm: 0.75rem; /* Small font size */
+	--font-size-md: 1.333rem; /* Medium font size */
+	--font-size-lg: 1.777rem; /* Large font size */
+	--font-size-xl: 2.369rem; /* Extra large font size */
+	--font-size-2xl: 3.157rem; /* 2x extra large font size */
+	--font-size-3xl: 4.209rem; /* 3x extra large font size */
+	--font-size-4xl: 5.61rem; /* 4x extra large font size */
 	--line-height: 1.6; /* Line height */
 
 	/* Spacing */
-	--spacing-xs: 0.25rem; /* Extra small spacing */
-	--spacing-sm: 0.5rem; /* Small spacing */
-	--spacing-md: 1rem; /* Medium spacing */
-	--spacing-lg: 1.5rem; /* Large spacing */
-	--spacing-xl: 2rem; /* Extra large spacing */
+	--spacing-base: 1rem; /* Base spacing */
+	--spacing-xs: 0.5rem; /* Extra small spacing */
+	--spacing-sm: 0.707rem; /* Small spacing */
+	--spacing-md: 1.414rem; /* Medium spacing */
+	--spacing-lg: 1.999rem; /* Large spacing */
+	--spacing-xl: 2.827rem; /* Extra large spacing */
+	--spacing-2xl: 3.998rem; /* 2x extra large spacing */
+	--spacing-3xl: 5.653rem; /* 3x extra large spacing */
+	--spacing-4xl: 7.993rem; /* 4x extra large spacing */
 
 	/* Border Radius */
 	--border-radius: 4px; /* Default border radius */
