@@ -1,0 +1,17 @@
+html {
+	--bg-color: var(--color-light);
+	--text-color: var(--color-dark);
+}
+
+html[data-theme="dark"] {
+	--bg-color: var(--color-dark);
+	--text-color: var(--color-light);
+}
+
+body {
+	font-family: var(--font-family-sans);
+	font-size: var(--font-size-base);
+	line-height: var(--line-height);
+	color: var(--text-color);
+	background-color: var(--bg-color);
+}

@@ -1,9 +1,9 @@
 <script lang="ts">
-	import type { AvailableLanguageTag } from '$lib/paraglide/runtime';
-	import { i18n } from '$lib/i18n';
-	import { page } from '$app/stores';
-	import { goto } from '$app/navigation';
-	import * as m from '$lib/paraglide/messages.js';
+	import type { AvailableLanguageTag } from "$lib/paraglide/runtime";
+	import { i18n } from "$lib/i18n";
+	import { page } from "$app/stores";
+	import { goto } from "$app/navigation";
+	import * as m from "$lib/paraglide/messages.js";
 
 	function switchToLanguage(newLanguage: AvailableLanguageTag) {
 		const canonicalPath = i18n.route($page.url.pathname);
@@ -12,12 +12,12 @@
 	}
 </script>
 
-<h1>{m.hello_world({ name: 'SvelteKit User' })}</h1>
+<h1>{m.hello_world({ name: "SvelteKit User" })}</h1>
 <div>
-	<button onclick={() => switchToLanguage('en')}>en</button>
-	<button onclick={() => switchToLanguage('es')}>es</button>
-	<button onclick={() => switchToLanguage('zh-cn')}>zh-cn</button>
-	<button onclick={() => switchToLanguage('fr')}>fr</button>
-	<button onclick={() => switchToLanguage('de')}>de</button>
-	<button onclick={() => switchToLanguage('ja')}>ja</button>
+	<button onclick={() => switchToLanguage("en")}>en</button>
+	<button onclick={() => switchToLanguage("es")}>es</button>
+	<button onclick={() => switchToLanguage("zh-cn")}>zh-cn</button>
+	<button onclick={() => switchToLanguage("fr")}>fr</button>
+	<button onclick={() => switchToLanguage("de")}>de</button>
+	<button onclick={() => switchToLanguage("ja")}>ja</button>
 </div>

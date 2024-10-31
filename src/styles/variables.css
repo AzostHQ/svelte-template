@@ -1,0 +1,44 @@
+:root {
+	/* Colors */
+	--color-primary: #007bff; /* Primary color */
+	--color-primary-light: #5bc0de; /* Light primary color */
+	--color-primary-dark: #0056b3; /* Dark primary color */
+	--color-secondary: #6c757d; /* Secondary color */
+	--color-success: #28a745; /* Success color */
+	--color-danger: #dc3545; /* Danger color */
+	--color-warning: #ffc107; /* Warning color */
+	--color-info: #17a2b8; /* Info color */
+	--color-light: #f8f9fa; /* Light color */
+	--color-dark: #343a40; /* Dark color */
+	--color-white: #ffffff; /* White color */
+	--color-black: #000000; /* Black color */
+
+	/* Typography */
+	--font-family-sans: "Lexend Variable", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+		Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; /* Sans-serif font */
+	--font-family-mono: "Victor Mono Variable", "Courier New", Courier, monospace; /* Monospace font */
+	--font-size-base: 16px; /* Base font size */
+	--font-size-sm: 0.875rem; /* Small font size */
+	--font-size-lg: 1.25rem; /* Large font size */
+	--line-height: 1.6; /* Line height */
+
+	/* Spacing */
+	--spacing-xs: 0.25rem; /* Extra small spacing */
+	--spacing-sm: 0.5rem; /* Small spacing */
+	--spacing-md: 1rem; /* Medium spacing */
+	--spacing-lg: 1.5rem; /* Large spacing */
+	--spacing-xl: 2rem; /* Extra large spacing */
+
+	/* Border Radius */
+	--border-radius: 4px; /* Default border radius */
+
+	/* Shadows */
+	--box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Default box shadow */
+	--box-shadow-lg: 0 4px 10px rgba(0, 0, 0, 0.15); /* Large box shadow */
+
+	/* Breakpoints */
+	--breakpoint-sm: 576px; /* Small screens */
+	--breakpoint-md: 768px; /* Medium screens */
+	--breakpoint-lg: 992px; /* Large screens */
+	--breakpoint-xl: 1200px; /* Extra large screens */
+}
